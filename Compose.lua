@@ -6,6 +6,8 @@
     A simple API for decorator pattern composition
 
     @examples - Can be found on the github repo, in examples section
+    https://github.com/rT0mmy/Compose
+
     @class Composition<T>
 ]=]
 

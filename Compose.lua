@@ -9,6 +9,14 @@
     https://github.com/rT0mmy/Compose
 
     @class Composition<T>
+
+	@prop Value T
+	@prop Modifiers {(T) -> T}
+	
+	@method SetValue (value: T) -> void
+	@method GetValue () -> void
+	@method Get () -> T
+	@method Modifier (f: (T) -> T) -> void
 ]=]
 
 export type CompositionFunction<T> = (T)->T
